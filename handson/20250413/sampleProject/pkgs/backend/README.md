@@ -1,18 +1,13 @@
-# Ginco-One-Platform-Sample
-
-This is a repo for Ginco-One-Platform-Sample.
-
-[![Build and Test SmartContract on GitHub Actions](https://github.com/mashharuki/Ginco-One-Platform-Sample/actions/workflows/ci.yml/badge.svg)](https://github.com/mashharuki/Ginco-One-Platform-Sample/actions/workflows/ci.yml)
+# Sample Contract Project for BDDH
 
 ## How to work
 
 - ### **setUp**
 
-  1.  You need to create Ginco API Key.
+  1.  You need to create API Key.
 
-      [Ginco One Platform Site](https://console.cloud.ginco.com/nodes/api)
-
-      ![](./docs/api.png)
+      - Alchemy API Key
+      - Arbitrum Scan API Key
 
   2.  You need to create `.env` file & fillout these values
 
@@ -22,7 +17,8 @@ This is a repo for Ginco-One-Platform-Sample.
 
       ```txt
       PRIVATE_KEY=""
-      GINCO_API_KEY=""
+      ALCHEMY_API_KEY=""
+      ARBITRUMSCAN_API_KEY=
       ```
 
   3.  install
@@ -48,43 +44,32 @@ This is a repo for Ginco-One-Platform-Sample.
   - **deploy contract**
 
     ```bash
-    yarn deploy:Lock --network holesky
-    ```
-
-  - **verify contract**
-
-    ```bash
-    yarn verify chain-1946
+    yarn deploy:Lock --network arbitrumSepolia
     ```
 
   - **get chain info**
 
     ```bash
-    yarn getChainInfo --network holesky
+    yarn getChainInfo --network arbitrumSepolia
     ```
 
   - **get balance**
 
     ```bash
-    yarn getBalance --network holesky
+    yarn getBalance --network arbitrumSepolia
     ```
 
   - **callReadMethod**
 
     ```bash
-    yarn callReadMethod --network holesky
+    yarn callReadMethod --network arbitrumSepolia
     ```
 
   - **calWriteMethod**
 
     ```bash
-    yarn callWriteMethod --network holesky
+    yarn callWriteMethod --network arbitrumSepolia
     ```
-
-### 参考文献
-
-1. [Ginco One Platform Site](https://console.cloud.ginco.com/nodes/api)
-2. [GitHub - Hardhat テンプレートプロジェクト](https://github.com/pcaversaccio/hardhat-project-template-ts/tree/main)
 
 ### デプロイしたコントラクト
 
