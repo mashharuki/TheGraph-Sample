@@ -13,4 +13,4 @@ TheGraph 用についての調査リポジトリ
 - [subgraph studio](https://thegraph.com/studio/)
 - [note - The Graphを使用するべき理由と使い方、Uniswapでの使われ方を分かりやすく解説【非開発者でもブロックチェーンのデータ取得を体験！】](https://note.com/prism_crypto/n/nb7634f57ff74)
 - [Xアカウント - TheGraph Japan](https://x.com/graphprotocoljp)
-- []()
+- [2025年4月13日 ハンズオン資料](https://docs.google.com/presentation/d/1u_rNNoj0HvXNml0dCR3mnCo3O9KGMhRSuMJ_Xw_BZf4/mobilepresent?slide=id.g34b79d92497_0_0)
