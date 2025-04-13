@@ -1,0 +1,8 @@
+{
+  "arbitrum-sepolia": {
+    "Lock": {
+      "address": "0x177acf501eF7d2b090d94fd3bd2BE773736598E1",
+      "startBlock": 142134967
+    }
+  }
+}

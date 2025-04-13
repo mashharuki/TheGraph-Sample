@@ -1,0 +1,16 @@
+{
+  "name": "SampleProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/mashharuki/PushFi.git",
+  "author": "Haruki Kondo",
+  "license": "MIT",
+  "workspaces": [
+    "pkgs/*"
+  ],
+  "scripts": {
+    "backend": "yarn workspace backend",
+    "subgraph": "yarn workspace subgraph"
+  }
+}
